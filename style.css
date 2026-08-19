@@ -1,0 +1,79 @@
+:root {
+    --roxo-escuro: #291C3A;
+    --roxo-medio: #331c52;
+    --roxo-claro: #8121D0;
+    --lilas: #DCCFED;
+    --cinza: #E1EBED;
+    --branco: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(110deg, #331c52 0%, #3f2b5c 50%, #291C3A 100%);
+    color: var(--text-white);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    background: linear-gradient(
+        90deg, 
+        #8121D0 0%, 
+        #331c52 75%,
+        #291C3A 100%
+    );
+}
+
+.titulo-site {
+    color: var(--branco);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin-right: 30px;
+}
+
+.menu-link {
+    color: var(--branco);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.botao-fale {
+    color: var(--roxo-escuro);
+    background-color: var(--branco);
+    text-decoration: none;
+    font-weight: 500;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.caixa-apresentacao {
+    display: flex;
+    align-items: center;   
+    justify-content: center;  
+    padding-top: 10%;
+
+}
+
+.apresentacao {
+
+
+}
+
+.ola {
+    color: var(--branco);
+}
