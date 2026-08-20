@@ -15,7 +15,6 @@
 
 body {
     min-height: 100vh;
-    background: linear-gradient(110deg, #331c52 0%, #3f2b5c 50%, #291C3A 100%);
     color: var(--text-white);
 
 }
@@ -48,6 +47,7 @@ body {
 }
 
 .menu-link {
+    display: inline-block;
     color: var(--branco);
     text-decoration: none;
     font-weight: 500;
@@ -63,19 +63,29 @@ body {
 }
 
 .botao-fale {
+    display: inline-block;
     color: var(--roxo-escuro);
     background-color: var(--branco);
     text-decoration: none;
     font-weight: 500;
-    padding: 12px;
+    padding: 8px 16px;
     border-radius: 10px;
+    transition: transform 0.2s ease;
+}
+
+.botao-fale:hover {
+    transform: scale(1.05);
+    box-shadow: 0 2px 15px rgba(255, 255, 255, 0.3);
 }
 
 .caixa-apresentacao {
+    
+    background: linear-gradient(110deg, #331c52 0%, #3f2b5c 50%, #291C3A 100%);
     display: flex;
     align-items: center;   
     justify-content: center;  
     padding-top: 10%;
+    padding-bottom: 10%;
 
 }
 
